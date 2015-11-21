@@ -1,0 +1,15 @@
+This is a demonstration of an issue with ReactLayout.
+
+When this app is run the following happens:
+
+1. React creates not 1 but two Apps
+2. These apps are mounted on 2 divs:
+ - myapp - as expected
+ - react-root - totally unexpected
+
+3. Content is displayed twice as well.
+
+ If FlowRouter block is uncommented in main.jsx then everything works as expected.
+
+ Also, if ReactLayout is replaced with ReactDOM all works fine as well, 
+ which leads me to believe the issue is with ReactLayout.
