@@ -7,9 +7,10 @@ When this app is run the following happens:
  - myapp - as expected
  - react-root - totally unexpected
 
-3. Content is displayed twice as well.
+3. Content is displayed twice.
 
- If FlowRouter block is uncommented in main.jsx then everything works as expected.
+ If FlowRouter block is uncommented in main.jsx then everything 
+ works as expected.
 
- Also, if ReactLayout is replaced with ReactDOM all works fine as well, 
- which leads me to believe the issue is with ReactLayout.
+ Also, if ReactLayout is replaced with ReactDOM all works fine, 
+ which leads me to believe the issue is with meteor-react-layout.
